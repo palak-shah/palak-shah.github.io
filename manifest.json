@@ -1,7 +1,7 @@
 {
-  "name": "OneSignal Example",
-  "short_name": "OneSignalExample",
+  "name": "palak-shah.github.io",
+  "short_name": "palak-shah.github.io",
   "start_url": "/",
-  "display": "standalone",
+  "display": "Smartweb",
   "gcm_sender_id": "482941778795"
 }
