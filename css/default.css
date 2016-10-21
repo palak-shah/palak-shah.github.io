@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+body { font-family: 'Source Sans Pro', sans-serif; margin: 0px; padding: 0px; }
+.padding { padding: 0; }
+html, body{ height:100%;}
+.padding-left { padding-left: 0; }
+.padding-right { padding-right: 0; }
+img{ max-width:100%;}
+a{outline:none; border:0px;}
+/**********************Home Page**********************/
+.client{background:#ededee;}
+.homepage-right-section ul { margin: 0px; padding: 0px; }
+.homepage-right-section li { list-style: none; }
+.reImagine-bi { background: url(../images/reImagine-bi.jpg) left top no-repeat #5bc0eb; position: relative; padding: 92px 26px 0; height: 226px; margin: 0 0 0px 0; }
+.righ-bg-image { position: absolute; right: 26px; }
+.reImagine-bi h4 { color: #101d61; font-size: 20px; line-height: 24px; margin: 0; padding: 0; }
+.reImagine-bi a { display: block; color: #fff; font-size: 40px; padding-right: 84px; text-align: right; width: 100%; }
+.reImagine-bi a:hover { text-decoration: none; }
+.smarten { background: url(../images/smarten.jpg) left top no-repeat #e55934; position: relative; padding: 92px 26px 0; height: 226px; margin: 0 0 0px 0; }
+.righ-bg-image { position: absolute; right: 26px; }
+.smarten h4 { color: #101d61; font-size: 20px; line-height: 24px; margin: 0; padding: 0; }
+.smarten a { display: block; color: #fff; font-size: 40px; padding-right: 84px; text-align: right; width: 100%; }
+.smarten a:hover { text-decoration: none; }
+.ready-to-use-app { background: url(../images/ready-to-useapp.jpg) left top no-repeat #9bc53d; position: relative; padding: 92px 26px 0; height: 226px; margin: 0 0 0px 0; }
+.righ-bg-image { position: absolute; right: 26px; }
+.ready-to-use-app h4 { color: #101d61; font-size: 20px; line-height: 24px; margin: 0; padding: 0; }
+.ready-to-use-app a { display: block; color: #fff; font-size: 40px; padding-right: 84px; text-align: right; width: 100%; }
+.ready-to-use-app a:hover { text-decoration: none; }
+.bi-in-action { background: url(../images/bi-action.jpg) left top no-repeat #e0c506; position: relative; padding: 92px 26px 0; height: 226px; margin: 0 0 0px 0; }
+.righ-bg-image { position: absolute; right: 26px; }
+.bi-in-action h4 { color: #101d61; font-size: 20px; line-height: 24px; margin: 0; padding: 0; }
+.bi-in-action a { display: block; color: #fff; font-size: 40px; padding-right: 84px; text-align: right; width: 100%; }
+.bi-in-action a:hover { text-decoration: none; }
+.elegantJ-bi { background: url(../images/elegantjbi.jpg) left top no-repeat #ae5e9b; position: relative; padding: 92px 26px 0; height: 226px; margin: 0 0 0px 0; }
+.righ-bg-image { position: absolute; right: 26px; }
+.elegantJ-bi h4 { color: #101d61; font-size: 20px; line-height: 24px; margin: 0; padding: 0; }
+.elegantJ-bi a { display: block; color: #fff; font-size: 40px; padding-right: 84px; text-align: right; width: 100%; }
+.elegantJ-bi a:hover { text-decoration: none; }
+.menu-bg-change.highlight { padding: 0 15px; }
+.menu-bg-change { display: inline-block; padding: 0 50px; width: 100%; }
+.highlight { background: #145faa none repeat scroll 0 0; left: 0; min-height: 1130px; position: absolute; width: 100%; z-index: 999999; }
+.site-nav-toggle { background-color: transparent; border: medium none; color: #ccc; display: block; float: right; margin-top: 50px; margin-right:0;}
+.site-nav { background-color: #145faa; display: none; margin-top: 0; position: absolute; top: 77px; }
+.close-arrow { background: rgba(0, 0, 0, 0) url("../images/close-arrow.png") no-repeat scroll left top; display: inline-block; height: 24px; width: 24px; margin:0 48px 0 0;}
+.site-nav > ul > li { border-bottom:1px solid #387abc !important; float: none; list-style: none; }
+.site-nav > ul > li a { color: #fff !important; font-size: 22px; font-weight: 300; line-height: 50px; text-transform: capitalize;}
+.logo{padding:70px 50px;}
+.logo-b{ padding:0 50px}
+.logo-b h2{font-size:37px; display:block; margin:0px; padding:0px 0 25px; color:#145faa; line-height:52px;}
+p{ font-size:16px; line-height:20px; color:#000000; margin:0 0 25px; font-weight:300;}
+.logo-b p span{ font-size:21px; color:#145faa; font-weight:300;}
+.slider-carousel{ background:#ededee; display:block;}
+.footer-fix {
+    bottom: -173px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+/************************Inner Page***************************/
+.innder-icon{right:0; position:absolute; width:100px; z-index:999; top:0;}
+.inner-page .site-nav-toggle{float:left; padding:0 0 0 0px;}
+.inner-page .close-arrow{margin:0 0 0 80px;}
+.inner-page .fa-bars{padding:0 0 0 80px;}
+.inner-page .main-nav{padding:0 0 0 61px;}
+.innder-icon li{height: 225px; text-align: right;list-style:none; width:80px; float:right;}
+.inner-page li.reImagine-bi{background:#5bc0eb url(../images/reImagine-bi-icon.png) center center no-repeat;}
+.innder-icon li a{ display:none; color:#fff; font-size:14px !important;}
+.innder-icon li:hover a{ display:block; color:#fff; font-size:14px;}
+.menu-leftsidebar{ padding:0px; margin:0px;}
+.innder-icon li:hover{ width:158px;}
+.inner-page li.smarten{background:#e55934 url(../images/smarten.png) center center no-repeat;}
+.inner-page li.ready-to-use-app{background:#9bc53d url(../images/ready-to-use-app.png) center center no-repeat;}
+.inner-page li.bI-in-action{background:#e0c505 url(../images/bI-in-action.png) center center no-repeat;}
+.inner-page li.elegantj-bi{background:#ae5e9b url(../images/elegantj-bi.png) center center no-repeat;}
+.inner-page .menu-leftsidebar li a{color: #fff; display: none; float: left; height: 100%; padding:100% 0 0; text-align: center; width: 100%;}
+.inner-page .menu-leftsidebar li:hover a{ display:block;}
+.inner-page .logo{ padding:50px 0 50px 80px;}
+.inner-page h2{ padding:50px 0 0 0; text-align:right; display:block; margin:0px; color:#5bc0eb; font-size:}
+.main-title h2{ display:block; margin:0px; padding:52px 0 0; font-size:60px; color:#5bc0eb;}
+.inner-page{padding:0 280px 0 0px;}
+.inner-page .menu-bg-change{padding:0px;}
+.main-image{ padding:0 0 0 80px;}
+.main-image span{position:absolute; left:0; right:0px; margin:20% auto; width:100%; text-align:center; font-size:30px; color:#fff;}
+.margin-bot{ margin-bottom:30px;}
+.main-image{ min-height:1101px;}
+.main-title .homepage-right-section{ display:none;}
+.homeicon{float: left; margin: 50px 0 0 19px;}
+/************************Inner page and***************************/
+/************************Footer***************************/
+.footer{background:#ededee; display:block; border-top:1px solid #fff;}
+.footer ul{ margin:0px; padding:0px;}
+.footer li{ list-style:none; display:inline-block; height:74px; line-height:74px;} 
+.footer li a{ color:#145faa; font-size:14px; padding:0 38px 0 0; font-weight:300;}
+.logo-f img{ display:inline-block; margin:0 20px;}
+.email{color:#145faa; font-size:14px; padding:0 0 0 31px; margin:0 0 0 36px; height:74px; line-height:74px; display:inline-block; font-weight:300; background:url(../images/email-icon.jpg) left 28px no-repeat;}
+.livechat{color:#145faa; font-size:14px; padding:0 0 0 31px; height:74px; line-height:74px; display:inline-block; font-weight:300; background: url(../images/livechat.jpg) left 28px no-repeat; margin:0 0 0 78px;}
+.email-border{border-left:1px solid #fff;}
+.copyright{ line-height:74px; height:74px; font-size:14px; font-weight:normal;}
+.logo-f{ line-height:74px; height:74px; border-left:1px solid #fff;}
+@media screen and (max-width:1522px) {
+
+.logo-f img {
+    display: inline-block;
+    margin: 0 15px;
+}
+}
+@media screen and (max-width:1330px) {
+.footer li a {
+    color: #145faa;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0 15px 0 0;
+}
+.logo-b h2{ font-size:36px; line-height:42px;}
+.logo{padding: 30px 50px;}
+
+.logo-f img {
+    display: inline-block;
+    margin: 0 9px;
+}
+.email{ margin:0px;}
+}
+@media screen and (max-width:1192px) {
+.main-image span{ font-size:22px;}
+.main-title h2{ font-size:42px;}
+.lg-border{ border-bottom:1px solid #fff; text-align:center;}
+.footer li a {
+    color: #145faa;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 38px 0 0;
+}
+.inner-page {
+    padding: 0 133px 0 0;
+}
+}
+.@media screen and (max-width:992px) {
+	
+}
+@media screen and (max-width:767px) {
+.logo-b{ padding:15px 0 0;}
+.bx-wrapper .bx-viewport{padding:66px 0 0 ;}
+.footer li{display: inline-block; height: 41px; line-height: 40px; list-style: outside none none; width: 49%;}
+.email{ margin:0px;}
+.logo{padding: 30px 0;}
+.email-border{border-left: 0 none; border-top: 1px solid #fff;}
+.logo-f{border-top: 1px solid #fff; height: 74px; line-height: 74px;}
+.logo-f img{display: inline-block; margin: 0 5px;}
+.close-arrow{ margin:0px;}
+.site-nav ul{ padding:0px;}
+.menu-bg-change{padding:0px;}
+.copyright{font-size: 11px; font-weight: normal; height: 74px;line-height: 74px;}
+.reImagine-bi{background:#6acbef url("../images/reImagine-bi-mobile.jpg") no-repeat scroll left top; padding:0px; height:109px; line-height:109px;}
+.reImagine-bi h4{ line-height:109px;}
+.smarten{ background:#ed7044 url("../images/smarten-mobile.jpg") no-repeat scroll left top; padding:0px; height:109px; line-height:109px;}
+.smarten h4{ line-height:109px;}
+.ready-to-use-app{ background:#aacd4d url("../images/ready-to-useapp-mobile.jpg") no-repeat scroll left top; padding:0px; height:109px; line-height:109px;}
+.ready-to-use-app h4{ line-height:109px;}
+.bi-in-action{background:#cdbd44 url("../images/bi-action-mobile.jpg") no-repeat scroll left top; padding:0px; height:109px; line-height:109px;}
+.bi-in-action h4{line-height:109px;}
+.elegantJ-bi{background:#bf76ad url("../images/elegantJ-bi-mobile.jpg") no-repeat scroll left top; padding:0px; height:109px; line-height:109px;}
+.elegantJ-bi h4{line-height:109px;}
+.righ-bg-image{display:none;}
+.homepage-right-section a{padding:0 22px 0 0; font-size:25px;}
+.innder-icon{display:none;}
+.inner-page{padding: 0 15px;}
+.inner-page .fa-bars{padding: 0;}
+.inner-page .close-arrow{margin: 0 0 0 18px;}
+.inner-page .logo{padding:20px 0 20px 0px;}
+.main-title{padding:0px;}
+.inner-page h2{text-align:left; padding:0 0 20px; display:none;}
+.main-title .homepage-right-section{ display:block; margin:0 0 20px 0;}
+.main-image{padding: 0; text-align: center;}
+.inner-page .main-nav{padding: 0;}
+.logo-b h2{font-size: 29px; line-height: 32px;}
+.main-image{ min-height:1500px;}
+}
