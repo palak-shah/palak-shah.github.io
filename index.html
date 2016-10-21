@@ -1,40 +1,26 @@
 <!DOCTYPE html>
-<html class="js no-touchevents" lang="en">
-<head>
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>EJBI APP</title>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progressive Web Application</title>
     <meta http-equiv=X-UA-Compatible content="IE=edge">
     <meta name=description content="This web application will work in offline, has a splash screen add to home screen etc,.">
     <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no">
-   
+    <meta name="theme-color" content="#0288d1">
+    <meta name="msapplication-TileColor" content="#0288d1">
     <meta name="msapplication-TileImage" content="./images/icons/mstile-150x150.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Progressive Web Application">
     <meta name="application-name" content="Progressive Web Application">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/default.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link rel="apple-touch-icon" href="./images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./images/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./images/icons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="./manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="manifest" href="/manifest.json">
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
-  <script>
-    var OneSignal = window.OneSignal || [];
-    OneSignal.push(["init", {
-      appId: "e9a85042-380d-493f-98c8-6df99700ed17",
-      autoRegister: true,
-      notifyButton: {
-        enable: true /* Set to false to hide */
-      }
-    }]);
-  </script>
-</head>
- <body>
+  </head>
+  <body>
   <div class="app app__layout">
     <header>
       <span class="header__icon">
@@ -145,4 +131,4 @@
   <script src="./js/share.js"></script>
   <script src="./js/app.js"></script>
   </body>
-  </html> 
+</html>
