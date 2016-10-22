@@ -43,7 +43,7 @@
 	<script>
     window.addEventListener('load', function() {
         var outputElement = document.getElementById('output');
-        navigator.serviceWorker.register('service-worker.js', {
+        navigator.serviceWorker.register('serviceworker.js', {
                 scope: './'
             })
             .then(function(r) {
