@@ -4,7 +4,7 @@
   "start_url": "index.html",
 	"icons": [
 		{
-			"src": "images/favicon_152.png",
+			"src": "http://elegantjbi.com/images/favicon/favicon_57.png",
 			"sizes": "36x36",
 			"type": "image/png",
 			"density": 0.75
@@ -16,7 +16,7 @@
 			"density": 1
 		},
 		{
-			"src": "images/favicon_152.png",
+			"src": "http://elegantjbi.com/images/favicon/favicon_76.png",
 			"sizes": "72x72",
 			"type": "image/png",
 			"density": 1.5
