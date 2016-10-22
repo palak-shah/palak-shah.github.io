@@ -96,6 +96,15 @@ p{ font-size:16px; line-height:20px; color:#000000; margin:0 0 25px; font-weight
 .email-border{border-left:1px solid #fff;}
 .copyright{ line-height:74px; height:74px; font-size:14px; font-weight:normal;}
 .logo-f{ line-height:74px; height:74px; border-left:1px solid #fff;}
+
+
+.main-content .inner-padding{margin: 15px 0 !important;}
+.sc h1 { color: #000; text-align: center; font-family: 'PT Sans', sans-serif; font-size: 27px; margin: 0 0 24px; font-weight: bold; text-transform: initial; }
+.sc h2 { color: #000; font-family: "PT Sans", sans-serif; font-size: 26px; margin: 0 0 5px; padding: 0 !important; text-align: center; text-transform: initial !important; }
+.main-content .inner-padding .background-content p { color: #464646; font-size: 16px; line-height: 21px; display: table-cell; vertical-align: middle; }
+.background-content { background: none repeat scroll 0 0 #eef9fd; display: table;    /*height: 130px;*/ height: 145px; margin: 0.6%; padding: 12px 15px; position: relative; width: 32%; text-align: center; }
+
+
 @media screen and (max-width:1522px) {
 
 .logo-f img {
@@ -173,4 +182,6 @@ p{ font-size:16px; line-height:20px; color:#000000; margin:0 0 25px; font-weight
 .inner-page .main-nav{padding: 0;}
 .logo-b h2{font-size: 29px; line-height: 32px;}
 .main-image{ min-height:1500px;}
+.background-content{width:100%;}
+.main-content .inner-padding{margin: 5px 0 !important;}
 }
