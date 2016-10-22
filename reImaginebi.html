@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>EJBI</title>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/default.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet">
+</head>
+<body>
+<div style="position:relative; min-height:100%;">
+	<div class="container-fluid inner-page">
+		<div class="row"> 
+			<div class="col-md-4 col-sm-12">
+				<div class="menu-bg-change">
+					<button class="site-nav-toggle"><span class="sr-only">Top</span> <i class="fa fa-bars fa-2x"></i> </button>
+					<div class="homeicon"><a href="index.html"><img src="images/homeicon.jpg" alt=""/></a></div>
+					<nav class="site-nav col-lg-11 col-sm-10 col-xs-11" role="navigation">
+						<ul id="menu" class="main-nav">
+							<li><a href="#">ReImagine BI</a></li>
+							<li><a href="#">Smarten</a></li>
+							<li><a href="#">Ready to Use APP</a></li>
+							<li><a href="#">BI In Action</a></li>
+							<li><a href="#">ElegantJ BI</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="logo col-md-6 col-sm-6 col-xs-12"><img src="images/inner-logo.jpg" alt=""/></div>
+				<div class="col-sm-6 col-md-6 col-xs-12 main-title">
+					<h2>ReImagine BI</h2>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-xs-12 main-title">
+				<div class="homepage-right-section">
+					<div class="reImagine-bi"><span class="righ-bg-image"><img src="images/reImagine-bi-icon.png"></span>
+						<h4>
+							<ul>
+								<li class="hover_title"><a href="#" style="margin-top: 0px;">ReImagine BI</a></li>
+							</ul>
+						</h4>
+					</div>
+				</div>
+			</div>
+			<div class="main-image">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bot"> <img src="images/freedom-imagine.png" alt=""/><span>Freedom to Imagine</span></div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bot"> <img src="images/out-of-the-box-mobile-bi.jpg" alt=""/><span>Out of the box Mobile BI</span></div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bot"> <a href="socialbi.html"><img src="images/social-business-intelligence.jpg" alt=""><span>Social BI</span></a></div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bot"> <img src="images/managed-memory.jpg" alt=""/><span>Managed Memory<br> Computing</span></div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bot"> <img src="images/independence.jpg" alt=""/><span>Independence</span></div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bot"> <img src="images/deep-dive.jpg" alt=""/><span>Deep Dive</span></div>
+			</div>
+		</div>
+		<div class="innder-icon">
+			<ul class="menu-leftsidebar">
+				<li class="reImagine-bi"><a href="reImaginebi.html">ReImagine BI</a></li>
+				<li class="smarten"><a href="#">Smarten</a></li>
+				<li class="ready-to-use-app"><a href="#">Ready to Use APP</a></li>
+				<li class="bI-in-action"><a href="#">BI In Action</a></li>
+				<li class="elegantj-bi"><a href="#">ElegantJ BI</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-fix">
+		<div class="container-fluid">
+			<div class="footer row">
+				<div class="col-xs-12">
+					<div class="col-md-12 col-lg-6 col-sm-12 lg-border">
+						<ul>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Sitemap</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Blog &amp; Articles</a></li>
+							<li><a href="#">Disclaimer</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 col-lg-2 col-sm-6 email-border"> <a href="#" class="livechat">LIVE CHAT</a> </div>
+					<div class="col-md-6 col-lg-4 logo-f col-sm-6"> <img src="images/linkedin.jpg"/> <img src="images/google.jpg"/> <img src="images/twitter.jpg"/> <img src="images/facebook.jpg"/> <img src="images/wordpress.jpg"/> <img src="images/tel.jpg"/> <img src="images/rss.jpg"/> </div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid text-center copyright">© Elegant MicroWeb. All Trademarks are duly acknowledged.</div>
+	</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/jquery.bxslider.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript">
+
+	jQuery("body").delegate(".site-nav-toggle","click",function(){
+		jQuery(".site-nav").slideToggle("fast");			
+		jQuery(".menu-bg-change").toggleClass( "highlight" );				
+		jQuery(".site-nav-toggle i").toggleClass( "fa-bars close-arrow" );
+	});
+
+
+	jQuery(".site-search-toggle").click(function(){
+		jQuery(".search-form").toggle();			
+	});
+	$(document).ready(function(){
+	  $('.slider1').bxSlider({
+		slideWidth:500,
+		minSlides:1,
+		maxSlides: 3,
+		slideMargin: 10
+	  });
+	  
+	
+	});
+	$(window).load(function(){
+		$( window ).resize(function(){
+			if(jQuery( window ).width() < 768){
+				if($('.mobile-main').html() == ''){
+					$mobiletop = jQuery("body .mobile-top").html();
+					$mobiletopinner = jQuery("body .mobile-top .mobile-top-inner").html();
+					jQuery("body .mobile-top .mobile-top-inner").html('');
+					$mobiletopwithoutinner = jQuery("body .mobile-top").html();
+					$('.mobile-main').html($mobiletopwithoutinner);
+					jQuery("body .mobile-top").html('');
+					$('.mobile-top-after').html($mobiletop);
+					$('.mobile-top-after .menu-bg-change').remove();
+					$('.mobile-top-after .logo').remove();
+				}
+				
+			}else{
+				if($('.mobile-top').html() == ''){
+					$mobiletop = jQuery("body .mobile-main").html();
+					jQuery("body .mobile-main").html('');
+					$('.mobile-top').html($mobiletop);
+					$mobiletopafter = jQuery("body .mobile-top-after .mobile-top-inner").html();
+					jQuery("body .mobile-top-after").html('');
+					$('.mobile-top .mobile-top-inner').html($mobiletopafter);
+					
+				}
+				
+			}
+		$('.slider1').bxSlider({
+		slideWidth:500,
+		minSlides:1,
+		maxSlides: 3,
+		slideMargin: 10
+	  });
+	});
+	
+		if(jQuery( window ).width() < 768){
+				$mobiletop = jQuery("body .mobile-top").html();
+				$mobiletopinner = jQuery("body .mobile-top .mobile-top-inner").html();
+				jQuery("body .mobile-top .mobile-top-inner").html('');
+				$mobiletopwithoutinner = jQuery("body .mobile-top").html();
+				$('.mobile-main').html($mobiletopwithoutinner);
+				jQuery("body .mobile-top").html('');
+				$('.mobile-top-after').html($mobiletop);
+				$('.mobile-top-after .menu-bg-change').remove();
+				$('.mobile-top-after .logo').remove();
+		}
+	});
+</script>
+</body>
+</html>
