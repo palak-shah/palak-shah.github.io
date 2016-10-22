@@ -40,7 +40,7 @@
     }]);
 	  
   </script>
-	<script>
+	<!--<script>
     window.addEventListener('load', function() {
         var outputElement = document.getElementById('output');
         navigator.serviceWorker.register('serviceWorker.js', {
@@ -54,7 +54,7 @@
                 console.error(error);
             });
     });
-    </script>
+    </script> -->
 </head>
  <body>
 <div class="container-fluid">
@@ -226,7 +226,7 @@
 </script>
 
   <!-- JS Files  -->
-  <!--<script type="text/javascript">
+  <script type="text/javascript">
   //If serviceWorker supports, then register it.
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register('serviceWorker.js', { scope: "./" }) //setting scope of sw
@@ -237,7 +237,7 @@
       console.error('Service worker failed ', error);
     });
   }
-  </script>-->
+  </script>
   <script src="./js/snackbar.js"></script>
   <script src="./js/push.js"></script>
   <script src="./js/sync.js"></script>
